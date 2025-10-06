@@ -2,4 +2,5 @@
 *.pkl filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
+trainingCheckpoints/* filter=lfs diff=lfs merge=lfs -text
 trainingCheckpoints/*.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
